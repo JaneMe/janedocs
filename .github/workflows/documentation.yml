@@ -41,8 +41,8 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "2384439266@qq.com"
-          git config --global user.name "ZainChen"
+          git config --global user.email "JaneMe@github.com"
+          git config --global user.name "JaneMe"
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
