@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjanedocs=self.webpackChunkjanedocs||[]).push([[201],{5386:function(s){s.exports=JSON.parse('{"allTagsPath":"/janedocs/blog/tags","slug":"/janedocs/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/janedocs/blog/tags/docusaurus"}')}}]);
