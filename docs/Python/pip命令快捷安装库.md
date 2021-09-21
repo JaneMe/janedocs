@@ -61,7 +61,7 @@ pip是一个安装和管理Python包的工具，vscode安装python插件会自�
 
   ```
   pip install robotframework-selenium2library==3.0.0
-  Pip install robotframework-seleniumlibrary==3.0.0
+  pip install robotframework-seleniumlibrary==3.0.0
   ```
 
   引入RequestsLibrary库
@@ -94,14 +94,11 @@ pip是一个安装和管理Python包的工具，vscode安装python插件会自�
   ```
 
 
-
 python安装包：https://www.python.org
 
 Pycharm安装包：http://www.jetbrains.com/pycharm/download/
 
 Selenium安装包：https://pypi.python.org/pypi/selenium 
-
-一般安装方式：pip install selenium
 
 火狐浏览器(延长版)：http://www.firefox.com.cn/download/#more
 
