@@ -1,3 +1,6 @@
+@import "monaco/stylesheet.css";
+@import "fira-code/stylesheet.css";
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -89,4 +92,9 @@ ul li::marker {
 
 table thead tr th {
   color: var(--ifm-breadcrumb-color-active);
+}
+
+* {
+  /* font-family: 'Monaco', 'Fira Code'; */
+  font-family: 'Fira Code';
 }
