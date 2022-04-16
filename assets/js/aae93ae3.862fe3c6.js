@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjanedocs=self.webpackChunkjanedocs||[]).push([[3558],{936:function(a){a.exports=JSON.parse('{"allTagsPath":"/Janedocs/blog/tags","name":"hola","count":1,"permalink":"/Janedocs/blog/tags/hola"}')}}]);

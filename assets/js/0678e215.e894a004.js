@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjanedocs=self.webpackChunkjanedocs||[]).push([[5391],{2388:function(e){e.exports=JSON.parse('{"permalink":"/Janedocs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
