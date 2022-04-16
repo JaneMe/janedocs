@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-table-head-font-weight: 800;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -36,4 +37,56 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 自定义样式 */
+[data-theme='dark']  h1 {
+  font-size: 2rem;
+  color: var(--ifm-menu-color-active);
+  border-bottom: solid 1px var(--ifm-menu-color-active);
+}
+
+[data-theme='light'] h1 {
+  font-size: 2rem;
+  color: var(--ifm-menu-color-active);
+  border-bottom: solid 1px var(--ifm-menu-color-active);
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.admonition {
+  display: flex;
+}
+
+.admonition-icon svg {
+  fill: var(--ifm-alert-border-color);
+}
+
+.admonition-heading {
+  display: inline-flex;
+  padding-top: 3px;
+}
+
+.admonition h5 {
+  margin-bottom: 0;
+  color: var(--ifm-alert-border-color);
+  width: 30px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.admonition-content {
+  display: inline-block;
+}
+
+code,
+ol li::marker,
+ul li::marker {
+  color: var(--ifm-breadcrumb-color-active); 
+}
+
+table thead tr th {
+  color: var(--ifm-breadcrumb-color-active);
 }
