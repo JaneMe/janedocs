@@ -10,7 +10,7 @@ const config = {
   title: 'Janedocs',
   tagline: 'Dinosaurs are cool',
   url: 'https://janeme.github.io',
-  baseUrl: '/Janedocs/',
+  baseUrl: '/janedocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
