@@ -106,27 +106,49 @@ ul li::marker {
   color: var(--ifm-breadcrumb-color-active); 
 }
 
-.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+pre code {
   max-height: 500px;
   font-family: 'Fira Code' !important;
 }
 
 /* ------------表格样式更改------------ */
+
 /* 去除表格间隔背景 */
 table tr:nth-child(2n) {
   background-color: unset;
 }
+
 /* 去除首行表格加粗 */
 table th {
   font-weight: unset;
 }
 
+/*  */
+table th {
+  background-color: #242526;
+}
 /* .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module,
 .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
   background: #282c34
 } */
 
+
+
+/* 修改全局文章字体颜色 */
 p {
   color: rgba(254, 254, 254, 0.842)
 }
 
+
+/* ------------左侧边栏文档目录------------ */
+/* 修改字体 */
+.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module {
+  font-family: 'Fira Code';
+}
+
+
+/* ------------右侧边栏文章目录------------ */
+/* 修改字体 */
+.table-of-contents, .table-of-contents ul {
+  font-family: 'Fira Code';
+}
