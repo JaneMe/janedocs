@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+title: pip命令快捷安装库.md
 ---
 
-# pip命令快捷安装库
+## pip命令快捷安装库
 
 pip是一个安装和管理Python包的工具，`vscode`安装python插件会自带pip命令，但有可能pip版本较低，需要更新至最新版本。
 
@@ -26,7 +26,7 @@ pip是一个安装和管理Python包的工具，`vscode`安装python插件会自
 
   
 
-# 使用pip命令安装RobotFrameWork
+## 使用pip命令安装RobotFrameWork
 
 - pip安装wxpython
 
@@ -112,7 +112,7 @@ IE浏览器安装包：https://support.microsoft.com/zh-cn/help/17621/internet-e
 
 IE浏览器驱动iedriverserver.exe：http://selenium-release.storage.googleapis.com/index.html
 
-# 遇到的问题
+## 遇到的问题
 
 通过pip安装完所有的库后，使用命令“python ride.py”启动RIDE界面时出现以下报错：
 
@@ -246,8 +246,8 @@ Error in atexit._run_exitfuncs:
 wx._core.wxAssertionError: C++ assertion "GetEventHandler() == this" failed at ..\..\src\common\wincmn.cpp(478) in wxWindowBase::~wxWindowBase(): any pushed event handlers must have been removed
 ```
 
-解决方法
+## 解决方法
 
-在 **D:\install\Install_Directory\Python38\Lib\site-packages\robotide\application** 目录下打开 `application.py` 文件，在图例位置加上字段 `self.locale = wx.Locale(wx.LANGUAGE_ENGLISH)` 保存，再次运行命令“python ride.py”则可正常打开 RIDE 界面了。
+在 `D:\install\Install_Directory\Python38\Lib\site-packages\robotide\application` 目录下打开 `application.py` 文件，在图例位置加上字段 `self.locale = wx.Locale(wx.LANGUAGE_ENGLISH)` 保存，再次运行命令“python ride.py”则可正常打开 RIDE 界面了。
 
 ![image-20210820174902349](https://i.loli.net/2021/08/20/6fq7pRsyYPFMlXr.png)

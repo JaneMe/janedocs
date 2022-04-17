@@ -17,7 +17,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --ifm-table-head-font-weight: 800;
+  /* --ifm-table-head-font-weight: 800; */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,16 +43,32 @@
 }
 
 /* 自定义样式 */
-[data-theme='dark']  h1 {
+[data-theme='dark']  h2 {
   font-size: 2rem;
   color: var(--ifm-menu-color-active);
   border-bottom: solid 1px var(--ifm-menu-color-active);
 }
 
-[data-theme='light'] h1 {
+[data-theme='light'] h2 {
   font-size: 2rem;
   color: var(--ifm-menu-color-active);
   border-bottom: solid 1px var(--ifm-menu-color-active);
+}
+
+[data-theme='dark']  h3 {
+  font-size: 1.5rem;
+  color: var(--ifm-menu-color-active);
+  /* border-bottom: solid 1px var(--ifm-menu-color-active); */
+}
+
+[data-theme='light'] h3 {
+  font-size: 1.5rem;
+  color: var(--ifm-menu-color-active);
+  /* border-bottom: solid 1px var(--ifm-menu-color-active); */
+}
+
+header {
+  display: none;
 }
 
 h2 {
@@ -90,11 +106,27 @@ ul li::marker {
   color: var(--ifm-breadcrumb-color-active); 
 }
 
-table thead tr th {
-  color: var(--ifm-breadcrumb-color-active);
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  max-height: 500px;
+  font-family: 'Fira Code' !important;
 }
 
-* {
-  /* font-family: 'Monaco', 'Fira Code'; */
-  font-family: 'Fira Code';
+/* ------------表格样式更改------------ */
+/* 去除表格间隔背景 */
+table tr:nth-child(2n) {
+  background-color: unset;
 }
+/* 去除首行表格加粗 */
+table th {
+  font-weight: unset;
+}
+
+/* .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module,
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+  background: #282c34
+} */
+
+p {
+  color: rgba(254, 254, 254, 0.842)
+}
+
