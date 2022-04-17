@@ -42,31 +42,37 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* 自定义样式 */
+/* ------------标题样式------------ */
+
+/* 暗主题 */
 [data-theme='dark']  h2 {
   font-size: 2rem;
   color: var(--ifm-menu-color-active);
   border-bottom: solid 1px var(--ifm-menu-color-active);
 }
 
+/* 亮主题标题修改 */
 [data-theme='light'] h2 {
   font-size: 2rem;
   color: var(--ifm-menu-color-active);
   border-bottom: solid 1px var(--ifm-menu-color-active);
 }
 
+/* 暗主题标题修改 */
 [data-theme='dark']  h3 {
   font-size: 1.5rem;
   color: var(--ifm-menu-color-active);
   /* border-bottom: solid 1px var(--ifm-menu-color-active); */
 }
 
+/* 亮主题标题修改 */
 [data-theme='light'] h3 {
   font-size: 1.5rem;
   color: var(--ifm-menu-color-active);
   /* border-bottom: solid 1px var(--ifm-menu-color-active); */
 }
 
+/* 隐藏Header */
 header {
   display: none;
 }
@@ -100,15 +106,24 @@ h2 {
   display: inline-block;
 }
 
+/* ------------代码样式更改------------ */
+
+/* 有序/无序列表序号 */
 code,
 ol li::marker,
 ul li::marker {
   color: var(--ifm-breadcrumb-color-active); 
 }
 
+/* 多行代码块 */
 pre code {
   max-height: 500px;
-  font-family: 'Fira Code' !important;
+
+}
+
+/* 单行代码 */
+code  {
+  font-family: 'Fira Code' , '微软雅黑'!important;
 }
 
 /* ------------表格样式更改------------ */
@@ -127,11 +142,6 @@ table th {
 table th {
   background-color: #242526;
 }
-/* .menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-Desktop-Content-styles-module,
-.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
-  background: #282c34
-} */
-
 
 
 /* ------------修改全局文章字体颜色------------ */

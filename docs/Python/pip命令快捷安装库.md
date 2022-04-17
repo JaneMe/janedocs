@@ -1,8 +1,4 @@
----
-title: pip命令快捷安装库.md
----
-
-## pip命令快捷安装库
+# pip命令快捷安装库
 
 pip是一个安装和管理Python包的工具，`vscode`安装python插件会自带pip命令，但有可能pip版本较低，需要更新至最新版本。
 
