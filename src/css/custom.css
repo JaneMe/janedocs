@@ -73,9 +73,9 @@
 }
 
 /* 隐藏Header */
-header {
+/* header {
   display: none;
-}
+} */
 
 h2 {
   font-size: 1.75rem;
