@@ -18,6 +18,11 @@ const config = {
   projectName: 'Janedocs', // Usually your repo name.
   trailingSlash: false,
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-CN'],
+  },
+
   presets: [
     [
       'classic',
@@ -75,6 +80,10 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/JaneMe/janedocs',
             label: 'GitHub',
             position: 'right',
@@ -130,6 +139,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+      }
     }),
     plugins: [
       // async function pluginAlias(context, options) {

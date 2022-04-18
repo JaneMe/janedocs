@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Python": {
+    "message": "Python",
+    "description": "The label for category Python in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docusaurus搭架及使用": {
+    "message": "Docusaurus搭架及使用",
+    "description": "The label for category Docusaurus搭架及使用 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.音视频专题": {
+    "message": "音视频专题",
+    "description": "The label for category 音视频专题 in sidebar tutorialSidebar"
+  }
+}
