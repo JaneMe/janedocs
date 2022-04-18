@@ -4,15 +4,15 @@
         <title>Janedocs Blog</title>
         <link>https://janeme.github.io/janedocs/blog</link>
         <description>Janedocs Blog</description>
-        <lastBuildDate>Mon, 18 Apr 2022 05:27:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Apr 2022 15:17:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>zh-CN</language>
         <item>
             <title><![CDATA[Network Emulator Toolkit 模拟弱网]]></title>
             <link>https://janeme.github.io/janedocs/blog/network-emulator-toolkit</link>
             <guid>network-emulator-toolkit</guid>
-            <pubDate>Mon, 18 Apr 2022 05:27:07 GMT</pubDate>
+            <pubDate>Mon, 18 Apr 2022 15:17:27 GMT</pubDate>
             <description><![CDATA[下载]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="下载">下载<a class="hash-link" href="#下载" title="Direct link to heading">​</a></h2><p>下载链接：<a href="https://pan.baidu.com/s/1AdG6pFluAday4cv2c1eLtQ" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1AdG6pFluAday4cv2c1eLtQ</a>
 提取码：sgp0</p><p>链接中包含文件说明：</p><ul><li>Network-Emulator-Toolkit-x64.zip （压缩包）</li></ul><ul><li>LiebaoFreeWiFi5.1.exe （安装包）</li></ul><ul><li>Untitled.xml （Network Emulator Toolkit配置文件）</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="安装">安装<a class="hash-link" href="#安装" title="Direct link to heading">​</a></h2><ul><li><p>安装Network Emulator Toolkit</p><p>解压 <strong>Network-Emulator-Toolkit-x64.zip</strong> 后双击启动 <code>NEW_X64.msi</code> 进行安装，安装完成后桌面不会生成快捷方式，需要打开安装目录下的 <code>bin</code> 文件夹，找到 <code>newtui.exe</code> 发送至桌面快捷方式。</p></li></ul><p><img loading="lazy" src="https://i.loli.net/2021/10/15/ZivWy1CuxLVb4q7.png" alt="image-20211015105217380" class="img_E7b_"></p><ul><li><p>安装猎豹免费WiFi（或者360WiFi）</p><p>双击启动 <code>LiebaoFreeWiFi5.1.exe</code> 进行安装，安装完成后启动猎豹免费WiFi。</p></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="配置上下行通道">配置上下行通道<a class="hash-link" href="#配置上下行通道" title="Direct link to heading">​</a></h2><ul><li><p>启动 Network-Emulator 应用程序</p></li><li><p>【File-&gt;New】新建一个文件命名 “模拟丢包.xml” </p></li><li><p>【Configuration-&gt;New Filter】添加过滤器
@@ -29,7 +29,7 @@
             <title><![CDATA[PicGo无法正常显示图片]]></title>
             <link>https://janeme.github.io/janedocs/blog/PicGo无法正常显示图片</link>
             <guid>/PicGo无法正常显示图片</guid>
-            <pubDate>Mon, 18 Apr 2022 05:27:07 GMT</pubDate>
+            <pubDate>Mon, 18 Apr 2022 15:17:27 GMT</pubDate>
             <description><![CDATA[问题描述]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="问题描述">问题描述<a class="hash-link" href="#问题描述" title="Direct link to heading">​</a></h2><p>配置 <code>typora+PicGo+GitHub</code> 作为 Markdown 笔记图片上传云端的工具，根据网上教程配置完成后， typora 能正常上传图片且能正常显示图片，而 PicGo 相册显示 GitHub 图床的图片无法正常显示（如下图）</p><img loading="lazy" src="https://user-images.githubusercontent.com/36725387/42676210-d3b318fa-86a9-11e8-8219-7ff254bcf210.png" alt="img" class="img_E7b_"><h2 class="anchor anchorWithStickyNavbar_mojV" id="解决方法">解决方法<a class="hash-link" href="#解决方法" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="重启应用">重启应用<a class="hash-link" href="#重启应用" title="Direct link to heading">​</a></h3><p>退出应用，重新启动，上传的图片能正常显示，若不能，则卸载重装应用。</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="卸载重装">卸载重装<a class="hash-link" href="#卸载重装" title="Direct link to heading">​</a></h3><p>卸载重装 PicGo，不需要重新配置图床，之后上传的图片都能正常显示。但之前无法显示的图片仍无法显示</p><p><img loading="lazy" src="https://raw.githubusercontent.com/JaneMe/PicGo/master/img/20210707112236.png" alt="image-20210707112236437" class="img_E7b_"></p>]]></content:encoded>
         </item>
@@ -37,7 +37,7 @@
             <title><![CDATA[iOS屏蔽OTA更新]]></title>
             <link>https://janeme.github.io/janedocs/blog/iOS屏蔽OTA更新</link>
             <guid>/iOS屏蔽OTA更新</guid>
-            <pubDate>Mon, 18 Apr 2022 05:27:07 GMT</pubDate>
+            <pubDate>Mon, 18 Apr 2022 15:17:27 GMT</pubDate>
             <description><![CDATA[前言]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="前言">前言<a class="hash-link" href="#前言" title="Direct link to heading">​</a></h2><p>iOS手机下载新系统文件后，老是提示更新升级，确实很烦人，且为了防止手机被不小心给升级了，可以按照以下方法让手机显示当前版本为最高版本，不会下载升级包进行安装升级。</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="操作步骤">操作步骤<a class="hash-link" href="#操作步骤" title="Direct link to heading">​</a></h2><blockquote><p>1、Safari浏览器中输入网址 <code>betahub.cn</code> 进入网页，选择最右侧 <code>block OTA</code>，点击 <code>即刻尝鲜</code> 跳转页面后点击 <code>下载</code> 则会立即下载一个描述文件。</p></blockquote><blockquote><p>2、进入手机 <code>设置-&gt; 通用-&gt;描述文件</code> 选择 <code>tvOS 15 Beta Software Profile</code>，点击 <code>安装</code></p></blockquote><blockquote><p>3、安装成功后，会提示重启手机，点击重启</p></blockquote><blockquote><p>4、重启手机后，到 <code>设置-&gt; 通用-&gt;软件更新</code> 中查看，显示 <code>您的软件是最新版本</code>，再不会下载系统自动更新啦！</p></blockquote><blockquote><p>如果想继续让系统更新，移除 <code>tvOS 15 Beta Software Profile</code>这个文件即可。
 不止iOS13系统可以下载这个文件阻止系统更新，iOS其他系统也适用，且实际验证过确实可以。</p></blockquote>]]></content:encoded>
@@ -46,7 +46,7 @@
             <title><![CDATA[如何将m3u8网络视频转码保存到本地]]></title>
             <link>https://janeme.github.io/janedocs/blog/如何将m3u8网络视频转码保存到本地</link>
             <guid>/如何将m3u8网络视频转码保存到本地</guid>
-            <pubDate>Mon, 18 Apr 2022 05:27:07 GMT</pubDate>
+            <pubDate>Mon, 18 Apr 2022 15:17:27 GMT</pubDate>
             <description><![CDATA[到官网下载VLC播放器：https://www.videolan.org/]]></description>
             <content:encoded><![CDATA[<p>到官网下载VLC播放器：<a href="https://www.videolan.org/" target="_blank" rel="noopener noreferrer">https://www.videolan.org/</a></p><ul><li><p>启动VLC</p></li><li><p>媒体-&gt;打开网络串流
 <img loading="lazy" src="https://img2018.cnblogs.com/i-beta/1277302/202002/1277302-20200211155332977-2005164770.png" alt="img" class="img_E7b_"></p></li><li><p>输入m3u8视频网络url

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjanedocs=self.webpackChunkjanedocs||[]).push([[283],{2559:function(e){e.exports=JSON.parse('{"permalink":"/janedocs/zh-CN/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
