@@ -19,8 +19,8 @@ const config = {
   trailingSlash: false,
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-CN'],
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN']
   },
 
   presets: [
@@ -79,10 +79,6 @@ const config = {
             label: '文章',
           },
           {to: '/blog', label: '博客', position: 'left'},
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
           {
             href: 'https://github.com/JaneMe/janedocs',
             label: 'GitHub',
